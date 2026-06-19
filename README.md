@@ -48,6 +48,30 @@ The system follows a pipeline architecture:
 Job Description → AI Parsing → Resume Matching → Interview Simulation → Final Scoring
 ## ⚙️ Core Capabilities
 
+## ⚙️ Engineering Highlights
+
+- Built a modular full-stack architecture separating AI logic, API layer, and UI layer
+- Implemented secure server-side AI processing to protect API keys and sensitive logic
+- Designed fallback mechanisms to ensure system continues working if AI API fails
+- Used structured JSON pipelines to convert unstructured text into machine-readable data
+
+## 🔁 System Workflow
+
+1. Job Description is entered by recruiter
+2. AI extracts structured requirements (skills, domain, experience)
+3. Candidate resume is parsed and analyzed
+4. Semantic matching engine calculates compatibility score
+5. Candidate enters AI-based interview simulation
+6. Final evaluation report is generated with recommendation
+
+## 🚀 Runtime Environment
+
+- Frontend runs in modern browsers (React-based UI)
+- Backend runs on Node.js (Express server)
+- AI processing handled via Google Gemini API
+- Voice interaction powered by Web Speech API
+- System is designed for local + cloud deployment readiness
+
 ### 🧠 Semantic Job Understanding
 Extracts structured requirements from raw job descriptions using AI models.
 
